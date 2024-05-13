@@ -12,16 +12,16 @@ import IconDanse from '@/components/icons/IconDanse.vue'
     imgAlt="Contrebasse"
   >
     <template #chapo>
-      <nav>
-        <ul>
+      <nav class="font-serif flex-1">
+        <ul class="grid grid-cols-3 gap-12">
           <li>
-            <a href="#"><IconMusic /> Musique</a>
+            <a class="flex flex-col items-center gap-4" href="#"><IconMusic /> Musique</a>
           </li>
           <li>
-            <a href="#"><IconTheater /> Théâtre</a>
+            <a class="flex flex-col items-center gap-4" href="#"><IconTheater /> Théâtre</a>
           </li>
           <li>
-            <a href="#"><IconDanse /> Danse</a>
+            <a class="flex flex-col items-center gap-4" href="#"><IconDanse /> Danse</a>
           </li>
         </ul>
       </nav>
