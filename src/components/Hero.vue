@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DuotoneImg from '@/components/DuotoneImg.vue'
+import DuotoneImg from '@/components/Duotoneimg.vue'
 
 defineProps<{
   title: string
